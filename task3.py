@@ -29,7 +29,8 @@ elif pattern1 == 'C':print("Protocol: ")
 else:
 print ("Invalid input")
 
-#prefexprefex = re.findall(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', working_text)
+#prefex
+prefex = re.findall(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', working_text)
 
 #AD/Metric
 ad_metric = re.findall(r'\d{1,3}\/\d{1,3}', working_text)
